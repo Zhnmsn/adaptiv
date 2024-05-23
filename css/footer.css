@@ -1,0 +1,138 @@
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 0;
+    align-items: center;
+}
+.footer__section {
+    background: rgb(47, 50, 75);
+    max-width: 1600px;
+}
+
+.logo__img {
+    float: left;
+    margin-right: 19px;
+    width: 68px;
+    height: 68px;
+}
+
+.footer__tel {
+    width: 210px;
+    color: var(--main-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.logo__text {
+    width: 217px;
+    color: var(--main-color);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    text-align: left;
+    padding: 18px 0;
+}
+.footer__text {
+    color: var(--main-color);
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+}
+
+.footer__phone {
+    color: var(--main-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: underline;
+    text-align: center;
+    width: 160px;
+    padding-left: 35px;
+}
+
+
+
+@media (max-width:1024px)  {
+    .footer__container{
+        width: 964px;
+        margin: 0 auto;
+    }
+    .logo__img {
+        width: 60px;
+        height: 60px;
+    }
+    .logo__text {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+    .footer__text {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+    }
+    .footer__tel {
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    .footer__phone-me {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .footer__section {
+        max-width: 1024px;
+    }
+    
+}
+
+@media (max-width:320px)  {
+    .logo__img {
+        width: 30.1px;
+        height: 30px;
+        margin-right: 19px;
+        align-content: center;
+    }
+    
+    .logo__text {
+        font-size: 8px;
+        font-weight: 500;
+        line-height: 9px;
+        width: 140px;
+        padding: 6px 0;
+    }
+    .footer__text {
+        display: none;
+    }
+    .footer__tel {
+        display: none;
+    }
+    .footer__phone-me {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+    .footer__section {
+        max-width: 1024px;
+    }
+    .footer__phone-logo {
+        background-image: url(../img/Phone-logo.png);
+        width: 24px;
+        height: 24px;
+    }
+    .sub-footer_section {
+        background-color: rgb(42, 44, 63);
+        height: 47px;
+        width: 320px;
+    }
+    .sub-footer__text {
+        color:rgba(255, 255, 255, 0.5);
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 14px;
+        text-align: center;
+        padding: 15px 0;
+    }
+}
