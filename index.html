@@ -43,14 +43,45 @@
             <p class="main__about"> О нас</p>
             <p class="main__text"> Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев 
                 более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить.</p>
+
+                
+
                 <ul class="main__numbers numbers"> 
                     <li class="numbers__item numbers__item_one">  <p class="numbers__digit"> 1</p>  <p class="numbers__text">  Первое целевое преимущество</p> </li>
                     <li class="numbers__item numbers__item_two"> <p class="numbers__digit"> 2</p> <p class="numbers__text numbers__text_two"> Второе целевое преимущество</p> </li>
                     <li class="numbers__item numbers__item_three"> <p class="numbers__digit"> 3</p> <p class="numbers__text numbers__text_three"> Третье целевое преимущество</p> </li>
                     <li class="numbers__item numbers__item_four"> <p class="numbers__digit"> 4</p> <p class="numbers__text numbers__text_four"> Четвертое целевое преимущество</p> </li>
                 </ul>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide numbers__item numbers__item_one"><p class="numbers__digit"> 1</p>  <p class="numbers__text">  Первое целевое преимущество</p></div>
+                        <div class="swiper-slide numbers__item numbers__item_two"><p class="numbers__digit"> 2</p> <p class="numbers__text numbers__text_two"> Второе целевое преимущество</p></div>
+                        <div class="swiper-slide numbers__item numbers__item_three"> <p class="numbers__digit"> 3</p> <p class="numbers__text numbers__text_three"> Третье целевое преимущество</p> </div>
+                        <div class="swiper-slide numbers__item numbers__item_four"> <p class="numbers__digit"> 4</p> <p class="numbers__text numbers__text_four"> Четвертое целевое преимущество</p></div>
+                    </div>
+                    <div class="swiper-button-next"> <img src="img/arrow-right.png" > </div>
+                    <div class="swiper-button-prev"> <img src="img/arrow-Left.png" > </div>
+                    </div>
+                
         </div>
     </section>
+    <script> 
+        var swiper = new Swiper(".mySwiper", {
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+            },
+              // When the window width is less than 319
+        breakpoints: {
+            319: {
+                
+                slidesPerView: 1
+            },
+            
+        },
+        });
+    </script> 
 
     <section class="questions__section">
         <div class="container questions__container">
@@ -84,8 +115,8 @@
                 <a class="footer__phone" href="#"><span class="footer__phone-me"> Перезвоните мне </span></a>
                 
             </div> 
-            </div>
         </div>
+        
     </section>
 
     <section class="sub-footer_section">
