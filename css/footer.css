@@ -51,11 +51,13 @@
     padding-left: 35px;
 }
 
-
+.sub-footer_section {
+    display: none;
+}
 
 @media (max-width:1024px)  {
     .footer__container{
-        width: 964px;
+        width: 90%;
         margin: 0 auto;
     }
     .logo__img {
@@ -82,9 +84,14 @@
         font-weight: 400;
         line-height: 15px;
     }
-    .footer__section {
-        max-width: 1024px;
+    
+    
+}
+@media (max-width:570px) {
+    .footer__tel, .footer__phone-me {
+        display: none;
     }
+    
     
 }
 
@@ -134,5 +141,12 @@
         line-height: 14px;
         text-align: center;
         padding: 15px 0;
+    }
+    .footer__container{
+        width: 290px;
+        margin: 0 auto;
+    }
+    .sub-footer_section {
+        display: block;
     }
 }

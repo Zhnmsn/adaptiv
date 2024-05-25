@@ -125,6 +125,25 @@
         max-width: 1024px;
     }
 }
+@media  (max-width:960px) {
+    .header__menu {
+        width: 90%;
+    }
+}
+@media  (max-width:770px) {
+    .header__title {
+        width: 90%;
+    }
+    .header__description {
+        width: 90%;
+    }
+
+}
+@media  (max-width:500px) {
+    .header__description {
+    margin-bottom: 30px;
+    }
+}
 
 @media  (max-width:320px) {
     .header__title {
@@ -168,6 +187,9 @@
     }
     .header__menu {
         padding-bottom: 65px;
+            width: 290px;
+            margin: 0 auto;
+        
     }
     .header__phone-logo {
         background-image: url(../img/Phone-logo.png);

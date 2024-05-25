@@ -121,6 +121,18 @@
         padding-bottom: 56px;
     }
 }
+@media (max-width:530px){
+    .questions__assent {
+    width: 300px;
+    }
+    .questions__text {
+        width: 300px;
+    }
+    .item__input {
+        width: 300px;
+    }
+}
+
 
 @media (max-width:320px)  {
     .questions__title {
