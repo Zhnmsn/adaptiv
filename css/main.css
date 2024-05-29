@@ -14,6 +14,7 @@
 .main__container {
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 
 
@@ -23,7 +24,7 @@
     font-weight: 500;
     line-height: 26px;
     margin: 0 auto;
-    width: 189px;
+    width: 200px;
     text-align: center;
     margin-bottom: 36px;
 }
@@ -34,8 +35,8 @@
     display: inline-block;
     background-size: contain;
     width: 43px;
-    height: 2px;
-    margin-right: 20px;
+    height: 3px;
+    margin-right: 18px;
     vertical-align: middle;
     
 }
@@ -46,9 +47,9 @@
     display: inline-block;
     background-size: contain;
     width: 43px;
-    height: 2px;
+    height: 3px;
     vertical-align: middle;
-    margin-left: 20px
+    margin-left: 24px
 }
 
 .main__text {
@@ -59,7 +60,7 @@
     width: 724px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 69px;
 }
 
 .main__numbers {
@@ -75,6 +76,8 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 23px;
+    text-indent: -5px;
+    
 }
 
 .numbers__item{
@@ -98,9 +101,8 @@
 }
 
 .main__container {
-    padding-bottom: 70px;
+    padding-bottom: 80px;
 }
-
 
 
 
@@ -111,24 +113,31 @@
         line-height: 38px;
         width: 812px;
         text-align: center;
+        margin-bottom: 22px;
     }
     .main__about {
         font-size: 20px;
         font-weight: 500;
         line-height: 23px;
+        margin-bottom: 34px;
+    }
+    .main__numbers{
+        gap: 50px;
     }
     .main__text {
         font-size: 16px;
         font-weight: 400;
         line-height: 19px;
         width: 666px;
-    }
+        }
     .numbers__digit {
         width: 104px;
         height: 104px;
         font-size: 52px;
         font-weight: 500;
         line-height: 61px;
+        padding-top: 21px;
+        margin-bottom: 26px;
     }
     .numbers__item{
         width: 180px;
@@ -138,10 +147,13 @@
         font-size: 18px;
         font-weight: 500;
         line-height: 21px;
+        text-indent: -5px;
+        word-spacing: 5px;
     }
     .main__container{
         max-width: 1022px;
         margin: 0 auto;
+        padding-bottom: 70px;
     }
 }
 
@@ -163,8 +175,9 @@
 
 @media (min-width:320px) {
     .mySwiper {
-        visibility: hidden;
-            }
+        display: none !important;
+        
+    }
     }
 
 @media (max-width:320px)  {
@@ -174,13 +187,14 @@
         font-weight: 700;
         line-height: 23px;
         width: 290px;
-        margin-bottom: 15px;
+        margin-bottom: 18px;
+        text-indent: -4px;
     }
     .main__about {
         font-size: 16px;
         font-weight: 500;
         line-height: 19px;
-        margin-bottom: 26px;
+        margin-bottom: 30px;
     }
     .main__about::before  {
         width: 19.71px;
@@ -193,12 +207,19 @@
         font-weight: 400;
         line-height: 14px;
         width: 290px;
+        height: 85px;
+        
         margin-bottom: 40px;
+        word-spacing: -1px;
     }
     .numbers__digit {
         font-size: 52px;
         font-weight: 500;
         line-height: 61px;
+    }
+    .numbers__text {
+        text-indent: -4px;
+        word-spacing: 0px;
     }
     .main__numbers {
         flex-direction: column;
@@ -206,12 +227,13 @@
         gap: 40px;
     }
     #main__section {
-        padding-top: 60px;
+        padding-top: 30px;
     }
     .numbers__text {
         font-size: 18px;
         font-weight: 500;
         line-height: 21px;
+        text-indent: -5px;
     }
     .main__container {
         padding-bottom: 60px;
